@@ -84,3 +84,11 @@ body {
 #skillsRight {
 	display: inline-block;
 }
+
+a {
+	color: #DEB992;
+}
+
+a:hover {
+	color: #1BA098;
+}
