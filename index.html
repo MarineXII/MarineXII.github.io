@@ -8,20 +8,100 @@
 		<meta name="description" content="Personal github page for Longji Kang">
 		<meta name="author" content="Longji Kang">
 
-		<link rel="stylesheet" href="/css/index-style.css">
+		<link rel="stylesheet" href="css/index-style.css">
 	</head>
 
 	<!--
-		Sky: #CAEBF2
-		Carbon: #A9A9A9
-		Water Melon: #FF3B3F
+		D. blue: #051622
+		Aqua: #1BA098
+		Peach: #DEB992
 	 -->
 
-	<body>
-		<body>
-			<aside id="leftSideBar">
-
-			</aside>
-		</body>
+	<body onload="calculateAge();">
+		<aside id="leftSideBar">
+			<div id="profileImageDiv">
+				<img src="images/profile.png" id="profilePicture"/>
+			</div>
+			<div id="contentListDiv">
+				<ul id="contentList">
+					<strong><li>Longji Kang</li></strong>
+					<br>
+					<li>A dedicated learner, working his way towards the goal of becoming a great software developer.</li>
+				</ul>
+			</div>
+		</aside>
+		<div id="content">
+			<div id="basicInfoDiv">
+				<h1 class="contentHeadings">Basic Info</h1>
+				<div class="contentBody" id="contentInfoBody">
+					<div id="infoCategory">
+						Age:<br>
+						Primary School [Grade 1 - 3]:<br>
+						Primary School [Grade 4 - 6]:<br>
+						Primary School [Grade 7]:  <br>
+						High School:<br>
+						University:
+					</div>
+					<div id="infoData">
+						<p id="ageData"></p>
+						Kempton Park Primary School<br>
+						Mandorren<br>
+						Curro Serengeti<br>
+						Curro Serengeti<br>
+						University of Pretoria
+					</div>
+				</div>
+				<br>
+			</div>
+			<div id="briefDescDiv">
+				<h1 class="contentHeadings">Brief Description</h1>
+				<div class="contentBody">
+					I am a Bsc Computer Science studen currently studying at the University of Pretoria. I first started programming at the age of 15. My initial inspirations to get into coding was developing plugins for Bukkit servers for Minecraft. I then took more interest in software development and did IT in grade 10 to 12 through an online course by SSIR. The first programming language that I had worked with was Java, however, in IT I worked with Delphi.
+					I enjoy coding because I feel good everytime I'm able to create a new piece of software that performs some task.<br><br>
+					Computer Science was not the field of study that I initially wanted to go into. I wanted to study medicine which my parents were very supportive of. I eventually decided to switch to Computer Science when I started working more with computers and started playing more video games. I became interested in how video games were created and the code behind the games.
+				</div>
+			</div>
+			<div id="hobbiesDiv">
+				<h1 class="contentHeadings">Hobbies</h1>
+				<div class="contentBody">
+					<ul id="hobbyList">
+						<li>Ice Skating</li>
+						<li>Gaming</li>
+						<li>Coding</li>
+						<li>Playing Guitar</li>
+						<li>Keeping Reptiles</li>
+						<li>Airsoft</li>
+					</ul>
+				</div>
+			</div>
+			<div id="skillsDiv">
+				<h1 class="contentHeadings">Programming Experience</h1>
+				<div class="contentBody">
+					<ul id="skillsLeft">
+						<li>C++</li>
+						<li>LAMP stack (PHP)</li>
+						<li>Java</li>
+						<li>Delphi</li>
+						<li>Relational Databases</li>
+					</ul>
+					<ul id="skillsRight">
+						<li>C#</li>
+						<li>HTML + CSS</li>
+						<li>Javascript</li>
+						<li>ASP.NET MVC</li>
+						<li>Software Design Patterns</li>
+					</ul>
+				</div>
+			</div>
+			<div id="workDiv">
+				<h1 class="contentHeadings">Work Experience</h1>
+				<div class="contentBody">
+					As of the time this page was written (07 May 2020), I have not had any industry experience with software development and coding.<br>
+					I help out at my parent's shop whenever I'm not busy with university work.<br>
+					I also have experience from volunteer work from our community based module.
+				</div>
+			</div>
+		</div>
 	</body>
+	<script src="scripts/main.js"></script>
 </html>
