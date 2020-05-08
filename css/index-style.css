@@ -22,6 +22,7 @@ body {
 }
 
 #contentList {
+	margin-top: 100px;
 	padding: 10px;
 	list-style-type: none;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,6 +30,14 @@ body {
 	text-align: center;
 
 	color: #DEB992;
+}
+
+#nameField {
+	font-size: 25px;
+}
+
+#shortDesc {
+	text-align: left;
 }
 
 #content {
@@ -88,6 +97,7 @@ body {
 
 a {
 	color: #DEB992;
+	text-decoration: none;
 }
 
 a:hover {
